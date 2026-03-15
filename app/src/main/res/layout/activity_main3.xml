@@ -7,4 +7,11 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity4">
 
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView2"
+        android:layout_width="414dp"
+        android:layout_height="733dp"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="-1dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
